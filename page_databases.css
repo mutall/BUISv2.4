@@ -1,0 +1,15 @@
+label.normal {
+    display:none;
+}
+
+record{
+    margin-bottom: 10px;
+}
+
+records{
+    display:flex;
+    flex-direction: column;
+    font-size:xx-large;
+    height:100%;
+}
+

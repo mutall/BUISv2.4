@@ -1,0 +1,136 @@
+
+body
+{
+    background-color:beige;
+    font-family:arial,sans-serif;
+    font-size:13px;
+}
+
+header
+{
+    height:15%;
+    background-color: yellow;
+    display:flex
+}
+
+footer
+{
+    height:10%;
+    background-color: greenyellow;
+}
+
+article
+{
+    height:75%;
+    background-color: cyan;
+    overflow:scroll; 
+}
+
+div.field
+{
+    padding-top: 20px;
+    padding-left:20px;
+}
+
+
+td,th{
+    border:1px solid #ccc;
+    padding:6px 12px;
+    text-align:left;
+    vertical-align:top;
+    background-color:inherit;
+}
+
+th{
+    background-color:#dee8f1;
+}
+
+/*
+Show a pointer when you are on to of a form field*/
+tr{
+   cursor:pointer;    
+}
+
+/*
+The current (selected) dom record is shown in white.*/
+tr[current]{
+    background-color: white;   
+}
+
+/*
+The current (selected) dm field is shown in yellow*/
+td[current]{
+    background-color: yellow;   
+}
+
+field[current]{
+    background-color: yellow;   
+}
+
+/*
+Always show the error in red*/
+#error
+{
+ color: red;   
+}
+
+
+/*
+All labels can be pointed at*/
+label, #error
+{
+    cursor:pointer;
+}
+
+/*
+Foreign labels should mimic a button*/
+label.foreign
+{
+    background-color: buttonface;
+}
+
+
+records{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+record{
+    display: flex;
+    /*
+    Draw a boorder around a record*/
+    border:1px solid #ccc;
+    /*
+    Yes a whole record can be selected*/
+    cursor:pointer;    
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:33%;
+}
+
+
+record[current]{
+    background-color: white;   
+}
+
+/*
+Show alternate records with different colours for easw of readability*/
+/*
+record:nth-child(even){
+    background:lightgrey
+}*/
+
+label.normal{
+    font-weight: bold;
+    background: lightcyan;
+}
+
+/*
+The header section is a flexibox*/
+header{
+    display:flexi;
+}
+
+
+        
