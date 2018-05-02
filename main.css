@@ -132,4 +132,5 @@ a{
 a:hover{
     border: outset;
     text-decoration: underline;
+    text-decoration-color: mintcream;
 }
