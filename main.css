@@ -1,7 +1,15 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
 body
 {
-    font-family:arial,sans-serif;
-    font-size:13px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: Roboto;  
+    background: #ADA996;  /* fallback for old browsers */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
 }
 
 header
@@ -9,25 +17,24 @@ header
     height:15%;
     display:flex
 }
-
+article{
+    height: 70%;
+    overflow-y: scroll;
+}
 footer
 {
     height:10%;
 }
 
-article
-{
-    height:75%;
-    overflow-y:scroll; 
-}
+
 
 /* this is a stylesheet for all input types of type button */
 [type="button"]{
   cursor: pointer;
   display: inline-block;
   min-height: 1em;
-  outline: none;
-  border: none;
+  outline: black;
+  border-color:purple;
   vertical-align: baseline;
   background: #E0E1E2 none;
   color: rgba(0, 0, 0, 0.6);
@@ -60,6 +67,7 @@ field> label{
     padding: 12px 12px 12px 0;
     display: inline-block;
 }
+/* style all inputs of type text and password */
 [type="text"],[type="password"]{
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em;
@@ -71,8 +79,57 @@ field> label{
   border: 1px solid rgba(34, 36, 38, 0.15);
   color: rgba(0, 0, 0, 0.87);
   border-radius: 0.28571429rem;
-  -webkit-box-shadow: 0em 0em 0em 0em transparent inset;
   box-shadow: 0em 0em 0em 0em transparent inset;
-  -webkit-transition: color 0.1s ease, border-color 0.1s ease;
   transition: color 0.1s ease, border-color 0.1s ease;
+}
+
+/* this is for styling the the cards  */
+envelop>records{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+envelop>records>record{
+    box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+    transition:box-shadow .25s;
+    transition:box-shadow .25s;
+    padding:24px;
+    margin:.5rem 0 1rem 0;
+    border-radius:2px;
+    background-color:#EFE8E8;
+    flex-direction: column;
+    width: 20%;
+    margin:1.5% 2.5%;
+    transition: all 0.2s ease-in-out;
+}
+envelop>records>record:hover{
+    transform: scale(1.03, 1.03);
+    cursor: pointer;
+    text-decoration: underline;
+    box-shadow:0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+
+
+}
+
+envelop>records>record:active{
+    background-color: burlywood;
+}
+/* dont show the checkbox */
+field>[type="checkbox"], field>label{
+    display: none;
+}
+output{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 auto;
+}
+/* style all anchor tags  */
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+a:hover{
+    border: outset;
+    text-decoration: underline;
 }
