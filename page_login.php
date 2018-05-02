@@ -18,7 +18,7 @@ $page_login= new page_login($qstring);
         <!--The general appearance of a mutall page is controlled by this css.
         Remove it to be able to control the login page-->
         <!--link rel="stylesheet" type="text/css" href="mutall.css"-->
-        <link rel="stylesheet" type="text/css" href="page_login.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
 
         <!-- Script for referencing the prototypes for objects needed for 
         interacting with this page -->

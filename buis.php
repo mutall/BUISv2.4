@@ -32,7 +32,7 @@ class page_login extends page{
     
     //
     //The database that drives the mutall home page
-    const mutall_data="mutallco_data";
+    const mutall_data="mutall_data";
     //
     function __construct(querystring $qstring) {
         //

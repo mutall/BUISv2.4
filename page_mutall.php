@@ -31,11 +31,7 @@ $page_mutall= new page_mutall($querystring);
     <head>
         <title>mutall page</title>
 
-        <!-- Style sheet shared by all mutall pages -->
-        <link id="mutallcss" rel="stylesheet" type="text/css" href="mutall.css"/>
-
-        <!-- Style sheet specific to this page -->
-        <link id="page_mutall_css" rel="stylesheet" type="text/css" href="page_mutall.css"/>
+        <link id="maincss" rel="stylesheet" type="text/css" href="main.css"/>
 
         <!-- Script for referencing the prototypes for objects needed for 
         interacting with this page -->

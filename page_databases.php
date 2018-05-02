@@ -18,8 +18,7 @@ $page_databases = new page_databases($qstring);
         <title>page of Databases</title>
 
         <!--The general appearance of a mutall page is conrolled by this css-->
-        <link rel="stylesheet" type="text/css" href="mutall.css">
-        <link rel="stylesheet" type="text/css" href="page_databases.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
 
         <!-- Refer to the core mutall library-->
         <script src="mutall.js"></script>

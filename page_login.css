@@ -1,9 +1,0 @@
-/*
-Display field as a block. Why? Because I'm using it as a field delimiter and
-I would like every in a login field to be shown on its on line -- rather than 
-inline.
-*/
-field {
-    display:block;
-}
-       

@@ -21,8 +21,7 @@ $page_selector= new page_selector($qstring);
     <head>
         <title>Select <?php echo $page_selector->tname; ?></title>
 
-        <link rel="stylesheet" type="text/css" href="mutall.css">
-
+        <link rel="stylesheet" type="text/css" href="main.css">
         <!-- Script for resolving references to the javascript page_selector
         and other related "classes"-->
         <script id='mutall' src="mutall.js"></script>

@@ -24,9 +24,8 @@ $page_record= new page_record($qstring);
     <head>
         <title>Record <?php echo $page_record->tname; ?></title>
 
-        <link id="mutallcss" rel="stylesheet" type="text/css" href="mutall.css"/>
-        <link id="page_recordcss" rel="stylesheet" type="text/css" href="page_record.css"/>
-
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+        
 
         <!-- Script for referencing the prototypes for objects needed for 
         interacting with this page -->

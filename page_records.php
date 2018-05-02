@@ -21,7 +21,7 @@ $prp= new page_records($qstring);
     <head>
         <title><?php echo $prp->tname; ?></title>
 
-        <link id="mutallcss" rel="stylesheet" type="text/css" href="mutall.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
 
         <!-- Script for referencing the prototypes for objects needed for 
         interacting with this page -->

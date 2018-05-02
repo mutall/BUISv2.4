@@ -17,10 +17,8 @@ $page_database= new page_database($qstring);
     <head>
         <title>View Tables</title>
 
-        <link id="mutallcss" rel="stylesheet" type="text/css" href="mutall.css">
-        <link id="page_databases" rel="stylesheet" type="text/css" href="page_databases.css">
-        <link id="page_database" rel="stylesheet" type="text/css" href="page_database.css">
-
+        <link rel="stylesheet" type="text/css" href="main.css">
+        
         <!-- Include the core mutall library-->
         <script id='mutalljs' src="mutall.js"></script>
 
